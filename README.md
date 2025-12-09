@@ -23,37 +23,17 @@ Ordem sugerida de execução:
 
 02_criar_tabela_mestra_os.py 
 
-02_criar_tabela_mestra_os
 
 03_baseline_operacional.py 
 
-03_baseline_operacional
-
 04_kpi_mecanicos.py 
-
-04_kpi_mecanicos
 
 05_modelo_tempo_pecas_e_priorizacao.py 
 
-05_modelo_tempo_pecas_e_prioriz…
-
 06_graficos_kpi_mecanicos.py 
 
-06_graficos_kpi_mecanicos
 
 07_graficos_pecas.py 
-
-07_graficos_pecas
-
-As pastas usadas no projeto são:
-
-BASE_DIR = C:\Users\alvaro.brandao_kavak\Desktop\projeto_moto
-
-RAW_DIR = BASE_DIR / "csv" → CSVs brutos.
-
-OUTPUT_DIR = BASE_DIR / "outputs" → pickles e CSVs tratados.
-
-01_importacao_limpeza.py – Importação e limpeza inicial
 
 Objetivo
 
@@ -267,11 +247,6 @@ Calcula KPIs:
 
 KPI1 – eficiência técnica = tempo_estimado_total / busy_total_estimado.
 
-KPI2 – cobertura de estimativa = os_com_estimativa / os_count_total.
-
-KPI3 – complexidade média = tempo_estimado_total / os_com_estimativa.
-
-KPI4 – taxa de return = return_count / os_count_total.
 
 Aplica filtro mínimo de amostra (ex.: pelo menos 15 OS no período).
 
