@@ -19,10 +19,7 @@ Ordem sugerida de execução:
 
 01_importacao_limpeza.py 
 
-01_importacao_limpeza
-
 02_criar_tabela_mestra_os.py 
-
 
 03_baseline_operacional.py 
 
@@ -31,7 +28,6 @@ Ordem sugerida de execução:
 05_modelo_tempo_pecas_e_priorizacao.py 
 
 06_graficos_kpi_mecanicos.py 
-
 
 07_graficos_pecas.py 
 
